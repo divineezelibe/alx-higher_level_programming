@@ -1,4 +1,4 @@
-B#!/usr/bin/python3
+#!/usr/bin/python3
 """Rectangle that defines a rectangle with private instance variables"""
 
 class Rectangle:
