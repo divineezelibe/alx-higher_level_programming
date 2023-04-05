@@ -60,5 +60,4 @@ class Rectangle:
 
     def __repr__(self):
         """Let's now return formal repr of the rectangle"""
-       myrect = "Rectangle(" + str(self.__width) + ", "+ str(self.__height) + ")"
-       return (myrect)
+        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
