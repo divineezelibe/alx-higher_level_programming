@@ -48,12 +48,9 @@ class Rectangle:
 
     def __str__(self):
         """Lets return the printable repr of the our rectangle"""
-        if self.__width == 0 or self.__height == 0:
-            return ("")
-        #Create a rectangle list
-        myrect=[]
-        for i in ranger(self.__height):
-            [myrect.append('#') for j in range(self.__width)]
-            if i != self.__height - 1:
-                myrect.append("\n")
-        return ("".join(myrect))
+        all_ = ""
+        for i in range(self.__height):
+            all_ += ("#" * self.__width)
+            if i is not self.__height - 1:
+                all_ += "\n"
+        return all_
