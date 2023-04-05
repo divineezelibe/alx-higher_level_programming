@@ -1,8 +1,9 @@
-#!/usr/bin/python3
+B#!/usr/bin/python3
 """Rectangle that defines a rectangle with private instance variables"""
 
 class Rectangle:
-	
+	"""Rectangle class build up"""
+
         def __init__(self, width=0, height=0):
                 """Start a rectangle"""
 		self.__width = width
