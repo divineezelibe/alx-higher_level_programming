@@ -56,7 +56,7 @@ class Rectangle:
             [myrect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
                 myrect.append("\n")
-        return ("".join(rect))
+        return ("".join(myrect))
 
     def __repr__(self):
         """Let's now return formal repr of the rectangle"""
