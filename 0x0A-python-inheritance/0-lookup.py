@@ -8,4 +8,4 @@ attributes and methods of an object
 def lookup(obj):
     """Funtion here"""
   
-    return dir(obj);
+    return dir(obj)
