@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """A module that writes an Object to a 
-text file, using a JSON representation
+    text file, using a JSON representation
 """
 import json
 
