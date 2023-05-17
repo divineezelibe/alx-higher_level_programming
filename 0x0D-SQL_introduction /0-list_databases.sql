@@ -1,2 +1,2 @@
--- Query to display databases
+-- Show all databases
 SHOW DATABASES;
