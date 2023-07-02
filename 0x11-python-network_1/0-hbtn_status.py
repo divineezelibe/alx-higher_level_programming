@@ -12,7 +12,7 @@ url = 'https://alx-intranet.hbtn.io/status'
 # Open the URL and retrieve the response
 with urllib.request.urlopen(url) as response:
     # Read the response content and decode it as UTF-8
-    body = response.read().decode('utf-8')
+    body = response.read()
     
 print("Body response:")
 print("\t- type:", type(body))
