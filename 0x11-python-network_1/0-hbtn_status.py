@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
-import urllib.request
-
 """
 Display the body of the response.
 - type: the type of the response content.
 - content: the actual body of the response.
 """
+
+import urllib.request
+
 url = 'https://alx-intranet.hbtn.io/status'
 
 # Open the URL and retrieve the response
